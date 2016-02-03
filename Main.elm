@@ -9,7 +9,8 @@ import StartApp.Simple exposing (start)
 -- rosettacode task description.
 is_palindrome x = x == reverse x
 
--- The remainder of the code demonstrates the use of the function.
+-- The remainder of the code demonstrates the use of the function 
+-- in a complete Elm program.
 main = start { model = "", view = view, update = update }
 
 update newStr oldStr = newStr
