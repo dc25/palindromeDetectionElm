@@ -29,7 +29,7 @@ view candidate =
              is_palindrome candidate
 
            statement = 
-             if testResult then "PALINDROME!!" else "not a palindrome"
+             if testResult then "PALINDROME!" else "not a palindrome"
 
        in div [ myStyle] [text statement]
      ])
